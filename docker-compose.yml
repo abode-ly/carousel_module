@@ -1,0 +1,25 @@
+version: '2.1'
+
+services:
+  carousel_module:
+    image: carousel_module
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3001:3001
+
+  database:
+    image: mongo:4.0.3
+    environment:
+        - MONGO_INITDB_ROOT_USERNAME=YOUR_USERNAME_HERE
+        - MONGO_INITDB_ROOT_PASSWORD=YOUR_ACCESS_KEY_HERE
+    ports:
+      - "27017:27017"
+
+  # db-seed:
+  #   image: db-seed
+  #   build: .
+  #   depends_on:
+  #     - "database"
+  #   command: sh -c "npm run seed"
