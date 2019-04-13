@@ -12,3 +12,4 @@ README.md
 LICENSE
 .vscode
 .DS_Store
+database/dbAccessKey.js
