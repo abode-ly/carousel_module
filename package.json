@@ -4,8 +4,8 @@
   "description": "Component to handle the main photo gallery of the checkout page.",
   "main": "carousel.app.js",
   "scripts": {
-    "build": "webpack -d",
-    "build:watch": "webpack -d -w",
+    "build": "webpack -p",
+    "build:watch": "webpack -p -w",
     "start": "nodemon server/index.js",
     "seed": "node database/seed.js",
     "test": "jest",
