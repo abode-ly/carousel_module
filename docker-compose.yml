@@ -13,7 +13,7 @@ services:
     image: mongo:4.0.3
     environment:
         - MONGO_INITDB_ROOT_USERNAME=YOUR_USERNAME_HERE
-        - MONGO_INITDB_ROOT_PASSWORD=YOUR_ACCESS_KEY_HERE
+        - MONGO_INITDB_ROOT_PASSWORD=YOUR_PASSWORD_HERE
     ports:
       - "27017:27017"
 

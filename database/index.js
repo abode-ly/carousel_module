@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const { DBUSER, DBPW } = require('./dbAccessKey');
 
 
+// const db = mongoose.connect(`mongodb://${DBUSER}:${DBPW}@localhost/photosAndComments`, { useNewUrlParser: true, useCreateIndex: true });
 const db = mongoose.connect('mongodb://172.17.0.2/photosAndComments', { useNewUrlParser: true, useCreateIndex: true });
 
 const photosAndCommentsSchema = mongoose.Schema([
