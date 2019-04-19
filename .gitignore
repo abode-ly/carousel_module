@@ -3,3 +3,5 @@ carousel.app.js*
 dbAccessKey.js
 tests/coverage
 .circleci/dbAccessInfo.js
+public/0.carousel.app.js
+public/1.carousel.app.js
