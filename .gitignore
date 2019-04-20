@@ -4,3 +4,6 @@ dbAccessKey.js
 tests/coverage
 .circleci/dbAccessInfo.js
 docker-compose.yml
+public/0.carousel.app.js
+public/1.carousel.app.js
+public/2.carousel.app.js
